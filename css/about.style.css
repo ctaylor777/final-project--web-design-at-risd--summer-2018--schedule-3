@@ -1,31 +1,32 @@
 #index {
    position:relative;
+   width:100%;
    display:flex;
 }
 
-#info {
+.header {
    left:380px;
-   margin-top:19px;
-   margin-right:167px;
+   margin-top:12px;
+   margin-right:150px;
    z-index:1;
    display:flex;
    position:absolute;
-   width:45%;
+   width:47%;
    justify-content:space-between;
 }
 
 h1 {
-   position:relative;
    top:10px;
    font-family: 'Dosis', sans-serif;
    color:white;
    text-align:right;
    font-style: normal;
    font-weight: 300;
-   font-size:63pt;
-   width:305px;
-   height:163px;
+   font-size:62pt;
+   width:65%;
+   height:100%;
    letter-spacing:2px;
+   position:absolute;
 }
 
 .nav {
@@ -39,12 +40,10 @@ h1 {
 #background-container {
    border:1px solid red;
    position:absolute;
-   top:-19px;
 }
 
 img {
-   width:100%;
-   height:100%;
+   width:60%;
 }
 
 body {
